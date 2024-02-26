@@ -202,6 +202,7 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+    colour: #fff;
 }
 .services-list div:hover{
     background: #ff004f;
