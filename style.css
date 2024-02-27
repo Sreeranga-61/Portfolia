@@ -424,7 +424,7 @@ nav .fa-solid{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .header ul li{
-        display:inline-block;
+        display:none;
     }
 }
 .msg{
