@@ -416,9 +416,11 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+    .copyright{
+        font-size: 14px;
     }
     .header a{
-        font-size: 8px;
+        font-size: 7px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .header ul li{
