@@ -417,6 +417,13 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+    .header a{
+        font-size: 8px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header ul li{
+        display:inline-block;
+    }
 }
 .msg{
     color: #61b752;
