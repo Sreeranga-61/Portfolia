@@ -211,7 +211,7 @@ nav ul li a:hover::after{
 
 /*-----------------posrtfolia--------------*/
 
-#portfolia{
+#portfolio{
     padding: 50px 0;
 
 }
@@ -380,20 +380,13 @@ form .btn2{
 
 
 /*----------css for small screen--------*/
-
 nav .fa-solid{
     display: none;
 }
 
 @media only screen and (max-width:600px){
-    .container{
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-    }
     .header{
-        background-image: url(./phone-background.jpg)
+        background-image: url(images/phone-background.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -401,15 +394,14 @@ nav .fa-solid{
     }
     .header-text h1{
         font-size: 30px;
-
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
-    nav ul{
+    nav ul {
         background: #ff004f;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: -200px;
         width: 200px;
@@ -450,8 +442,6 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
-    
-
 }
 .msg{
     color: #61b752;
